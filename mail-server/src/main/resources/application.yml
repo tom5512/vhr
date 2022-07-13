@@ -1,0 +1,24 @@
+spring:
+  mail:
+    username: 1187866400@qq.com
+    password: suzqgfnvxctdgdcb
+    host: smtp.qq.com
+    port: 587
+    protocol: smtp
+    default-encoding: UTF-8
+#    properties:
+#      mail:
+#        smtp:
+#          socketFactory:
+#            class: javax.nex.ssl.SSLSocketFactory
+#          starttls:
+#            enable: true
+#          auth: true
+#        debug: true
+  rabbitmq:
+    host: 127.0.0.1
+    username: guest
+    password: guest
+    port: 49154
+server:
+  port: 7777

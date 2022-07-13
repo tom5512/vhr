@@ -1,0 +1,5 @@
+# Project exclude paths
+/vhr-server/vhr-mapper/target/
+/vhr-server/vhr-model/target/
+/vhr-server/vhr-service/target/
+/vhr-server/vhr-web/target/

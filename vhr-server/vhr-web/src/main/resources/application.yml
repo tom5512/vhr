@@ -1,0 +1,25 @@
+server:
+  port: 9999
+
+logging:
+  level:
+    com.qingqiao.vhr.mapper : debug
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql:///vhr?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: localhost
+    database: 1
+    port: 63798
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd
+  rabbitmq:
+    host: 127.0.0.1
+    username: guest
+    password: guest
+    port: 49154
